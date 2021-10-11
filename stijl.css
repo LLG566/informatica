@@ -1,0 +1,19 @@
+body {
+  background-color: #000033;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.periode {
+  background-color: navy;
+  color: white;
+  border: 2px solid skyblue;
+  margin: 11px;
+  padding: 11px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
