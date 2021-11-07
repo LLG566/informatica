@@ -11,6 +11,7 @@ h1 {
   border: 2px solid skyblue;
   margin: 11px;
   padding: 11px;
+  width: 400px;
   text-align: center;
 }
 h2 {
