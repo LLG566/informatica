@@ -6,31 +6,83 @@
 		informatica
 		</title>
 		<link rel="stylesheet" href="style.css">
-	</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-	<body>
-	<h1>HELLO THERE</h1>
+li {
+  float: left;
+}
 
-	<div class="periode">
-	<a href="periode1.html" target="_blank">periode 1</a>
-	</div>
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-	<div class="periode">
-	<a href="periode2.html" target="_blank">periode 2</a>
-	</div>
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
 
-	<div class="periode">
-	<a href="periode3.html" target="_blank">periode 3</a>
-	</div>
+li.dropdown {
+  display: inline-block;
+}
 
-	<div class="periode">
-	<a href="periode4.html" target="_blank">periode 4</a>
-	</div>
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-	<img src="lightning.jpg" alt="lightning" height="200" width="300">
-		
-	<h3> over mij </h3>
-	<p> Ik weet nog niet wat ik over mij wil vertellen. </p>
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
-	</body>
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="periode1.html">periode 1</a></li>
+  <li><a href="periode2.html">periode 2</a></li>
+  <li class="dropdown">
+    <a href="periode3.html" class="dropbtn">periode 3</a>
+    <div class="dropdown-content">
+      <a href="database.html">database</a>
+      <a href="stoplicht.html">arduino</a>
+    </div>
+  </li>
+	<li class="dropdown">
+    <a href="periode4.html" class="dropbtn">periode 4</a>
+    <div class="dropdown-content">
+      <a href="afstandsbediening.html">arduino</a>
+    </div>
+  </li>
+	<li><a href="overmij.html">over mij</a></li>
+</ul>
+
+<h3> 안녕하세요 </h3>
+<p> annyeonghaseyo </p>
+<p> hello </p>
+
+</body>
 </html>
